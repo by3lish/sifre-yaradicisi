@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Güclü Şifrə Yaradıcısı</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <div id="ran udom-password" class="pwdg">
+      <input type="text" id="password" readonly /> <button id="copy" class="copy">Kopyala</button>
+      <div id="settings">
+        <div class="child">
+        <label for="length">Uzunluq</label>
+        <input type="number" id="length" value="16" min="8" max="64" /><br>
+        <label for="numbers">Rəqəmlər</label>
+        <input type="checkbox" id="numbers" checked /><br>
+        <label for="symbols">Simvollar</label>
+        <input type="checkbox" id="symbols" checked /><br>
+      </div>
+      </div>
+      <button id="generate" class="btn-hover color-7">Şifrə Yarat</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
